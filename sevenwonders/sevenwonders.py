@@ -1,0 +1,6 @@
+line = input()
+t = line.count('T')
+c = line.count('C')
+g = line.count('G')
+sets = min(t, c, g)
+print(t**2 + c**2 + g**2 + sets*7)
