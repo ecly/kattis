@@ -1,0 +1,5 @@
+_n = int(input())
+numbers = sorted(list(map(int, input().split())), reverse=True)
+alice = sum(numbers[::2])
+bob = sum(numbers[1::2])
+print(alice, bob)
